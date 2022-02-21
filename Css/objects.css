@@ -1,0 +1,27 @@
+#navigation{
+    margin-left: 40%;
+    margin-top: 30px;
+}
+
+#navigation > ul > li{
+    display: inline-block;
+}
+
+#navigation > ul > li > a{
+    text-decoration: none;
+    color: #6066f2;
+    line-height:40px;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0 20px;
+    transition: all .3s ease-in-out;
+    
+}
+
+#navigation > ul > li > a:hover{
+   color: #8a378d ;
+   border-bottom: .1px  #8a378d;
+   border-top: .1px  #8a378d;
+   /* padding: 5px 10px; */
+   transition: all .3 ease-in-out ;
+}
